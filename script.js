@@ -48,17 +48,17 @@ colorDiv.forEach((elem) => {
 //   });
 // })
 // };
-function mainBtn(allColorsChange) {
-  allColorsChange.addEventListener("click", function () {colorDiv.forEach((elem) => {
-    elem.querySelector(".change__btn").addEventListener("click", function () {
-      const randomColor = getRandomColor();
-      elem.style.backgroundColor = randomColor;
-      elem.style.borderColor = randomColor;
-      elem.querySelector(".color__name").textContent = getRandomColor();
-    });
-  });
-  })
-}
+// function mainBtn(allColorsChange) {
+//   allColorsChange.addEventListener("click", function () {colorDiv.forEach((elem) => {
+//     elem.querySelector(".change__btn").addEventListener("click", function () {
+//       const randomColor = getRandomColor();
+//       elem.style.backgroundColor = randomColor;
+//       elem.style.borderColor = randomColor;
+//       elem.querySelector(".color__name").textContent = getRandomColor();
+//     });
+//   });
+//   })
+// }
 // const hex = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "a", "b", "c", "d", "e", "f"];
 // const getRandomIndex = (length) => Math.floor(Math.random() * length);
 
